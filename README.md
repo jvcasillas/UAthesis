@@ -19,8 +19,8 @@ r packages installed:
 
 ## Issues
 
-- [] Section formatting
-	- [] mainly (sub)subsubsection bolding
-- [] Knitr captions
-	- [] include captions from knitr call
-	- [] include figure in LOF from knitr call
+- [ ] Section formatting
+	- [ ] mainly (sub)subsubsection bolding
+- [ ] Knitr captions
+	- [ ] include captions from knitr call
+	- [ ] include figure in LOF from knitr call
