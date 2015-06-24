@@ -1,0 +1,59 @@
+---
+documentclass: uathesis
+classoption: dissertation, CC-BY-ND
+linkcolor: black
+output:
+  pdf_document:
+    highlight: zenburn
+    keep_tex: no
+    number_sections: yes
+    includes:
+      in_header: includes/tex/header.tex
+      before_body: includes/tex/doc_prefix.tex
+bibliography: includes/bib/bibliography.bib
+csl: includes/bib/apa.csl
+---
+
+
+<!-- Include the Abstract -->
+
+\incabstract{sections/2_abstract}
+
+
+
+
+<!-- % Include chapters -->
+
+```{r, child='./sections/intro.Rmd'}
+```
+
+```{r, child='./sections/production.Rmd'}
+```
+
+```{r, child='./sections/perception.Rmd'}
+```
+
+```{r, child='./sections/conclusion.Rmd'}
+```
+
+
+<!-- Include appendix -->
+
+\appendix
+
+```{r, child='./sections/appendices.Rmd'}
+```
+
+
+<!-- Include references -->
+
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+\increferences{sections/references}
+
+
+
+
+
