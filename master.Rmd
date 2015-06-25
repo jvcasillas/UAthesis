@@ -1,6 +1,6 @@
 ---
 documentclass: uathesis
-classoption: dissertation, CC-BY-ND
+classoption: dissertation
 linkcolor: black
 output:
   pdf_document:

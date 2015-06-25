@@ -94,7 +94,7 @@ This took a little cajoling, but the figures are now working. They are automatic
 	\label{fig:firstfig}
 \end{figure}
 
-One thing to remember is that the home directory is always that of the `master.Rmd` document. Therefore, it is necessary to establish the path to the img file from there. Here is the code used to produce the above figure:
+One thing to remember is that when including images the home directory is always that of the `master.Rmd` document. Therefore, it is necessary to establish the path to the img file from there. Here is the code used to produce the above figure:
 
 
 ```
