@@ -20,8 +20,8 @@ r packages installed:
 
 ## Issues
 
-- [ ] Section formatting
-	- [ ] mainly (sub)subsubsection bolding
+- [ ] Formatting
+	- [ ] subsubsubsection bolding
 - [ ] Knitr captions
 	- [ ] include captions from knitr call
 	- [ ] include figure in LOF from knitr call
