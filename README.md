@@ -21,7 +21,7 @@ r packages installed:
 ## Issues
 
 - [ ] Formatting
-	- [ ] (sub)subsubsection bolding
+	- [ ] subsubsubsection bolding
 - [ ] Knitr captions
 	- [ ] include captions from knitr call
 	- [ ] include figure in LOF from knitr call
