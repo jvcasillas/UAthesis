@@ -1,6 +1,7 @@
 \chapter{Introduction - Markdown and \LaTeX\label{intro}}
 
 
+
 This is a piecemeal rendition of the University of Arizona thesis class (`uathesis`) reworked to be compatible with `Rmarkdown`. The majority of the heavy lifting was already done by colleagues in the Department of Planetary Sciences at the U of A (see the `uathesis.cls` file for more information). In essence all I have done is include the proper adjustments so that it plays nicely with `knitr`. As of now (`r date()`), knitr and R are fully functional. That said, some other issues still remain.
 
 # Issues\label{issues}
