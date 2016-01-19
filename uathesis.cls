@@ -413,6 +413,20 @@
 							{\normalsize}}
 							%{\normalfont\large\bfseries}}
 
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{2}{\z@}%
+              {-3.25ex\@plus -1ex \@minus -.2ex}%
+              {1.5ex \@plus .2ex}%
+              %{\normalsize\bfseries}} %<-- makes subsubsection bold
+              {\normalsize}}
+              %{\normalfont\large\bfseries}}
+
+\renewcommand{\paragraph}{\@startsection{paragraph}{2}{\z@}%
+              {-3.25ex\@plus -1ex \@minus -.2ex}%
+              {1.5ex \@plus .2ex}%
+              %{\normalsize\bfseries}} %<-- makes paragraph bold
+              {\normalsize}}
+              %{\normalfont\large\bfseries}}
+
 % The following four commands were renewed so that text in the body
 % and captions of figures and tables will be single spaced and not
 % get the document's default spacing.

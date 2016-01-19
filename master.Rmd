@@ -24,16 +24,16 @@ csl: includes/bib/apa.csl
 
 <!-- % Include chapters -->
 
-```{r, child='./sections/intro.Rmd'}
+```{r, child='./sections/3_intro.Rmd'}
 ```
 
-```{r, child='./sections/production.Rmd'}
+```{r, child='./sections/4_chapterX.Rmd'}
 ```
 
-```{r, child='./sections/perception.Rmd'}
+```{r, child='./sections/5_chapterY.Rmd'}
 ```
 
-```{r, child='./sections/conclusion.Rmd'}
+```{r, child='./sections/6_conclusion.Rmd'}
 ```
 
 

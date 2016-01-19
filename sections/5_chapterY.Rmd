@@ -34,6 +34,6 @@ And you can generate plots directly from this file as well.
 library(ggplot2)
 ggplot(mtcars, aes(x = mpg, y = vs)) + 
 geom_point() + 
-geom_smooth(method = "glm", family = "binomial")
+geom_smooth(method = "glm", method.args=list(family="binomial"))
 ```
 

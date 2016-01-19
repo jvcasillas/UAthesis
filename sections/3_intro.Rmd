@@ -6,8 +6,6 @@ This is a piecemeal rendition of the University of Arizona thesis class (`uathes
 
 # Issues\label{issues}
 
-- Section formatting
-	- mainly (sub)subsubsection bolding
 - Knitr captions
 	- include captions from knitr call
 	- include figure in LOF from knitr call
@@ -37,16 +35,15 @@ It is helpful to use this with figures and tables. Like, for Figure \ref{fig:fir
 
 ## Subsections
 
-You can use hashtags or the `subsection{}` command to create a subsection. 
+You can use hashtags or the `\subsection{}` command to create a subsection. 
 
 ### Subsubsections
 
-Don't seem to be working properly yet.
+These have been fixed. You can use `\subsubsection{}` or 3 hashtags.
 
-#### Subsubsubsections
+\paragraph{Subsubsubsections}
 
-These don't either and they should be avoided for now.
-
+If you really need to go this deep, I suggest using the `\paragraph{}` command.
 
 
 # Math Example\label{math}
